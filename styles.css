@@ -1,0 +1,56 @@
+.cabecalho {
+    display:flex;
+    width: 1440px;
+    height: 80px;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    gap: 32px;
+    }
+
+.titulo {
+    padding: 10px 10px 10px 100px;
+
+color: #3A404E;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+gap: 8px;
+}
+
+.menus {
+    padding: 20px 0px 10px 10px;
+
+    color: #667085;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.menu_acesso1{
+    color: #667085;
+    padding: 10px 10px 10px 200px;
+
+/* Text md/Medium */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+}
+
+.menu_acesso2 {
+display: flex;
+padding: 10px 18px;
+gap: 8px;
+border-radius: 8px;
+border: 1px solid #8E2424;
+background: #8E2424;
+
+/* Shadow/xs */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
